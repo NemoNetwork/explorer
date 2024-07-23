@@ -1,0 +1,33 @@
+{
+    "chain_name": "nemo-testnet",
+    "registry_name": "Nemo",
+    "api": [
+      {
+        "address": "http://34.138.56.239:1317",
+        "provider": "Nemo"
+      }],
+    "rpc": [
+      {
+        "address": "http://34.138.56.239:26657",
+          "provider": "Nemo"
+      }],
+    "grpc": [
+      {
+        "address": "http://34.138.56.239:9090",
+          "provider": "Nemo"
+      }
+    ],
+    "addr_prefix": "nemo",
+    "sdk_version": "0.50.7",
+    "coin_type": "118",
+    "min_tx_fee": "0",
+    "theme_color": "#ce4747",
+    "logo": "https://i.imgur.com/awwv4Nu.png",
+    "assets": [{
+      "base": "uNemo",
+      "symbol": "Nemo",
+      "exponent": "6",
+      "coingecko_id": "",
+      "logo": "https://i.imgur.com/awwv4Nu.png"
+    }]
+  }

@@ -282,7 +282,7 @@ export const useDashboard = defineStore('dashboard', {
     );
     return {
       status: LoadingStatus.Empty,
-      source: ConfigSource.MainnetCosmosDirectory,
+      source: ConfigSource.TestnetCosmosDirectory,
       networkType: NetworkType.Mainnet,
       favoriteMap: favMap as Record<string, boolean>,
       chains: {} as Record<string, ChainConfig>,

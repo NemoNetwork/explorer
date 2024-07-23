@@ -1,0 +1,12 @@
+version: '3.6'
+
+services:
+  nemo-explorer:
+    image: nemo-explorer
+    build:
+      context: .
+      dockerfile: ./Dockerfile
+    environment:
+      NODE_ENV: production
+    ports:
+      - "5173:5173"
